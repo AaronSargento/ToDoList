@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Errands" representedClassName="Errands" syncable="YES" codeGenerationType="class">
+        <attribute name="item" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Goals" representedClassName="Goals" syncable="YES" codeGenerationType="class">
+        <attribute name="item" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Groceries" representedClassName="Groceries" codeGenerationType="class">
+        <attribute name="item" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
+    </entity>
+    <entity name="Health" representedClassName="Health" syncable="YES" codeGenerationType="class">
+        <attribute name="item" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Other" representedClassName="Other" syncable="YES" codeGenerationType="class">
+        <attribute name="item" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Personal" representedClassName="Personal" syncable="YES" codeGenerationType="class">
+        <attribute name="item" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Travel" representedClassName="Travel" syncable="YES" codeGenerationType="class">
+        <attribute name="item" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Work" representedClassName="Work" syncable="YES" codeGenerationType="class">
+        <attribute name="item" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Errands" positionX="-11" positionY="192" width="128" height="60"/>
+        <element name="Goals" positionX="403" positionY="189" width="128" height="60"/>
+        <element name="Groceries" positionX="261" positionY="189" width="128" height="60"/>
+        <element name="Health" positionX="412" positionY="384" width="128" height="60"/>
+        <element name="Other" positionX="216" positionY="315" width="128" height="60"/>
+        <element name="Personal" positionX="243" positionY="378" width="128" height="60"/>
+        <element name="Travel" positionX="538" positionY="189" width="128" height="60"/>
+        <element name="Work" positionX="124" positionY="189" width="128" height="60"/>
+    </elements>
+</model>
